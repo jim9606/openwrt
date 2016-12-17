@@ -8,14 +8,14 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=odhcpd
-PKG_VERSION:=2016-10-09
+PKG_VERSION:=2016-12-15
 PKG_RELEASE=$(PKG_SOURCE_VERSION)
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
-PKG_SOURCE_URL:=https://github.com/openwrt/odhcpd.git
+PKG_SOURCE_URL:=https://git.lede-project.org/project/odhcpd.git
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=801cfeea100ca7b211c9841f0fcb757b17f47860
+PKG_SOURCE_VERSION:=e05553099c47b92420c21ff30b07709dfa40a84a
 
 PKG_MAINTAINER:=Steven Barth <steven@midlink.org>
 PKG_LICENSE:=GPL-2.0
