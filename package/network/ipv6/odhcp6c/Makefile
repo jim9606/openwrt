@@ -31,7 +31,7 @@ define Package/odhcp6c
   SECTION:=net
   CATEGORY:=Network
   TITLE:=Embedded DHCPv6-client for OpenWrt
-  DEPENDS:=+kmod-ipv6
+  DEPENDS:=+kmod-ipv6 +libubox
 endef
 
 define Package/odhcp6c/config
