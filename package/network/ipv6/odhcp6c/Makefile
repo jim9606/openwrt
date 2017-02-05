@@ -8,14 +8,14 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=odhcp6c
-PKG_VERSION:=2016-12-16
+PKG_VERSION:=2017-01-30
 PKG_RELEASE=$(PKG_SOURCE_VERSION)
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.xz
 PKG_SOURCE_SUBDIR:=$(PKG_NAME)-$(PKG_VERSION)
-PKG_SOURCE_URL:=https://github.com/openwrt/odhcp6c.git
+PKG_SOURCE_URL:=https://git.lede-project.org/project/odhcp6c.git
 PKG_SOURCE_PROTO:=git
-PKG_SOURCE_VERSION:=5d6fec3a5c2a1a3015a2f26aaa27e05315e188f3
+PKG_SOURCE_VERSION:=c13b6a05dbd9174356cc4b7fd1edf39445efd982
 #PKG_MIRROR_MD5SUM:=
 PKG_MAINTAINER:=Steven Barth <steven@midlink.org>
 PKG_LICENSE:=GPL-2.0
