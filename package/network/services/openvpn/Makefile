@@ -62,7 +62,7 @@ endif
 CONFIGURE_VARS += \
 	IFCONFIG=/sbin/ifconfig \
 	ROUTE=/sbin/route \
-	IPROUTE=/sbin/ip \
+	IPROUTE=/usr/sbin/ip \
 	NETSTAT=/sbin/netstat
 
 define Build/Configure
